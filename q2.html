@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cart Quantity</title>
+    </head>
+    <body>
+        <button onclick="document.getElementById('paragraph').innerHTML='these are your items='+cartquatity;">show</button>
+         <button onclick="cartquantity=cartquantity+1">Add to cart</button>
+        <button onclick="cartquantity=cartquantity+2">+2</button>
+        <button onclick="cartquantity=cartquantity+3">+3</button>
+        <button onclick="cartquantity=0">clear cart</button>
+       <p id="paragraph"></p>
+        <script>
+            let cartquantity=0
+        </script>
+    </body>
+</html>
